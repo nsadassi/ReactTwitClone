@@ -7,6 +7,12 @@ padding-bottom: 10px;
 /*max-width: 500px;*/ /* IS THIS RIGHT ? */
 }
 
+.post:hover{
+    cursor: pointer;
+    background-color: #f7f9fa;
+    transition: background-color 100ms ease-out;
+}
+
 .post__headerText{
     display: flex;
 }

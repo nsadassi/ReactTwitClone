@@ -10,9 +10,16 @@
 .sidebar__twitterIcon{
     color: var(--twitter-color);
     font-size: 40px !important;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
     margin-bottom: 20px;
+    padding: 5px;
+}
+
+.sidebar__twitterIcon:hover{
+    cursor: pointer;
+    background-color: #e8f5fe;
+    border-radius: 30px;
 }
 
 .sidebar__tweet{
